@@ -1,0 +1,174 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "No sé qué decir",
+            "Qué puedo hacer",
+            "Qué puedes hacer",
+            "No sé",
+            "ayuda"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "LaunchSortingHat",
+          "samples": [
+            "abre el sombrero seleccionador"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "QuestionIntent",
+          "samples": [
+            "comenzar",
+            "iniciar test",
+            "empezar preguntas",
+            "start",
+            "begin test"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "directAnswer",
+              "type": "ANSWER_TYPE"
+            }
+          ],
+          "name": "AnswerIntent",
+          "samples": [
+            "{directAnswer}",
+            "Mi respuesta es {answer}",
+            "Elijo {answer}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "rojo"
+              }
+            },
+            {
+              "name": {
+                "value": "azul"
+              }
+            },
+            {
+              "name": {
+                "value": "amarillo"
+              }
+            },
+            {
+              "name": {
+                "value": "verde"
+              }
+            },
+            {
+              "name": {
+                "value": "valentía"
+              }
+            },
+            {
+              "name": {
+                "value": "inteligencia"
+              }
+            },
+            {
+              "name": {
+                "value": "lealtad"
+              }
+            },
+            {
+              "name": {
+                "value": "ambición"
+              }
+            },
+            {
+              "name": {
+                "value": "con coraje"
+              }
+            },
+            {
+              "name": {
+                "value": "con astucia"
+              }
+            },
+            {
+              "name": {
+                "value": "con paciencia"
+              }
+            },
+            {
+              "name": {
+                "value": "con lógica"
+              }
+            },
+            {
+              "name": {
+                "value": "deportes extremos"
+              }
+            },
+            {
+              "name": {
+                "value": "resolver acertijos"
+              }
+            },
+            {
+              "name": {
+                "value": "ayudar a los demás"
+              }
+            },
+            {
+              "name": {
+                "value": "liderar un equipo"
+              }
+            },
+            {
+              "name": {
+                "value": "fénix"
+              }
+            },
+            {
+              "name": {
+                "value": "búho"
+              }
+            },
+            {
+              "name": {
+                "value": "tejón"
+              }
+            },
+            {
+              "name": {
+                "value": "serpiente"
+              }
+            }
+          ],
+          "name": "ANSWER_TYPE"
+        }
+      ],
+      "invocationName": "sombrero seleccionador"
+    }
+  }
+}

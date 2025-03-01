@@ -1,0 +1,173 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "I don\u0027t know what to say",
+            "what can I do",
+            "what can you do",
+            "I do not know",
+            "help"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "LaunchSortingHat",
+          "samples": [
+            "open the sorting hat"
+          ]
+        },
+        {
+          "slots": [],
+          "name": "QuestionIntent",
+          "samples": [
+            "start",
+            "start test",
+            "start questions",
+            "begin test"
+          ]
+        },
+        {
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.SearchQuery"
+            },
+            {
+              "name": "directAnswer",
+              "type": "ANSWER_TYPE"
+            }
+          ],
+          "name": "AnswerIntent",
+          "samples": [
+            "{directAnswer}",
+            "My answer is {answer}",
+            "I choose {answer}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "red"
+              }
+            },
+            {
+              "name": {
+                "value": "blue"
+              }
+            },
+            {
+              "name": {
+                "value": "yellow"
+              }
+            },
+            {
+              "name": {
+                "value": "green"
+              }
+            },
+            {
+              "name": {
+                "value": "bravery"
+              }
+            },
+            {
+              "name": {
+                "value": "intelligence"
+              }
+            },
+            {
+              "name": {
+                "value": "loyalty"
+              }
+            },
+            {
+              "name": {
+                "value": "ambition"
+              }
+            },
+            {
+              "name": {
+                "value": "with courage"
+              }
+            },
+            {
+              "name": {
+                "value": "with cunning"
+              }
+            },
+            {
+              "name": {
+                "value": "with patience"
+              }
+            },
+            {
+              "name": {
+                "value": "with logic"
+              }
+            },
+            {
+              "name": {
+                "value": "extreme sports"
+              }
+            },
+            {
+              "name": {
+                "value": "solving puzzles"
+              }
+            },
+            {
+              "name": {
+                "value": "helping others"
+              }
+            },
+            {
+              "name": {
+                "value": "leading a team"
+              }
+            },
+            {
+              "name": {
+                "value": "phoenix"
+              }
+            },
+            {
+              "name": {
+                "value": "owl"
+              }
+            },
+            {
+              "name": {
+                "value": "badger"
+              }
+            },
+            {
+              "name": {
+                "value": "snake"
+              }
+            }
+          ],
+          "name": "ANSWER_TYPE"
+        }
+      ],
+      "invocationName": "sorting hat"
+    }
+  }
+}

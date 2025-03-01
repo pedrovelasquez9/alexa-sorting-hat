@@ -1,0 +1,31 @@
+# Ignorar credenciales y configuraciones sensibles
+config/
+.env
+.secret
+*.log
+*.env
+
+# Ignorar archivos de despliegue de ASK CLI
+.ask/
+.ask/config
+skill-package/
+
+# Ignorar dependencias de Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+
+# Ignorar archivos generados por IDEs/editores de código
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos de construcción y despliegue
+dist/
+build/
+coverage/
+
+# Evitar subir el skill.json si contiene datos sensibles (descomenta si necesario)
+# skill.json
